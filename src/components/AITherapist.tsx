@@ -145,7 +145,7 @@ const AITherapist = () => {
   };
 
   // Gemini client init (browser)
-  const STATIC_GEMINI_API_KEY = 'AIzaSyBkQXZXu2M4gd_2M8zBS2Hs2SZeP4kMXUA';
+  const STATIC_GEMINI_API_KEY = 'AIA';
   const envVars = (import.meta as unknown as { env: Record<string, string | undefined> }).env;
   const GEMINI_API_KEY =
     envVars?.VITE_GEMINI_API_KEY ||
